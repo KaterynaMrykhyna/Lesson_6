@@ -1,0 +1,174 @@
+@import url(reset.css);
+
+body {
+  background: #fff;
+}
+
+.container-reg {
+  width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 50px 20px;
+  border-radius: 8px;
+}
+
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #46a358;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-form {
+  font-size: 13px;
+  color: #3d3d3d;
+  margin-top: 40px;
+}
+
+input {
+  padding: 12px 14px;
+  width: 100%;
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  margin-top: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.green-button {
+  background-color: #46a358;
+  color: white;
+  font-size: 16px;
+}
+
+.white-button {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 30px 0 12px;
+}
+
+.header-container {
+  font-size: 0;
+  border-bottom: 1px solid rgba(70, 163, 88, .1);
+}
+
+.header-logo,
+.header-list,
+.header-list li,
+.header-btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-list {
+  margin-top: 8px;
+width: 950px;
+text-align: center;
+}
+
+.header-list li {
+  padding-bottom: 18px;
+}
+
+.header-list li.active {
+  font-weight: 900;
+  border-bottom: 2px solid #46a358;
+}
+
+.header-list li+li {
+  margin-left: 50px;
+}
+
+.header-list li a {
+color: #3d3d3d;
+text-decoration: none;
+
+}
+
+.header-btn {
+  width: 100px;
+  padding: 8px 17px 7px;
+  background: #46a358;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.header-btn img {
+  vertical-align:middle;
+  margin-right: 1px;
+
+}
+
+.left-block {
+  width: 530px;
+  height: 140px;
+  top: 91px;
+  left: 40px;
+}
+
+.left-block p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.left-block h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.green-text {
+  color: green;
+}
+
+.green-button {
+  width: 140px;
+  height: 40px;
+  top: 325px;
+  left: 41px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.right-block {
+  width: 500px;
+  height: 450px;
+}
